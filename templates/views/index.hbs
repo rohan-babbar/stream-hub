@@ -1,0 +1,40 @@
+<!-- Dynamic Content -->
+<!DOCTYPE html>
+<html>
+
+<head>  <!--for decalring style sheet of page -->
+   <title>Stream Hub</title>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="/img/movieLogo.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body background="/img/background5.png">  <!-- for displaying to the user-->
+<div class="main-content">
+    <h1>Streams <i class="fas fa-tv"></i></h1> <br>
+    <p><b><i><u>Use This Site to Get Live Streams Information
+        <i class="fa fa-camera-retro fa-lg"></i>
+    </u></i></b></p>
+    <br>
+    <form>
+        <input placeholder="Stream Name">
+        <button class="btn btn-primary">Search</button>
+    </form>
+    <p id="message-1">
+
+    </p>
+<p id="message-2">
+
+</p>
+</div>
+{{>footer}}
+<script src="/js/app.js"></script>
+
+</body>
+</html>
