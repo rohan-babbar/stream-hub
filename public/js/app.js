@@ -12,7 +12,7 @@ const messageTwo = document.querySelector('#message-2') //target by id value of 
          const name = search.value //value which user types
          messageOne.textContent = 'Loading...'
         messageTwo.textContent = ''
-               fetch('http://localhost:3000/movie?name='+name).then((response)=>{
+               fetch('/movie?name='+name).then((response)=>{
                 response.json().then((data)=>{
                 if(data.error){
                messageOne.textContent=data.error
